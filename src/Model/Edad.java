@@ -8,16 +8,16 @@ public class Edad {
 		System.out.println("Introduce un número");
 		int edad = sc.nextInt();
 		if(edad>=0&&edad<=4) {
-			texto = "pequeñajo";
+			texto = "pequeñajo o pequeñaja";
 		}
 		if(edad>=5&&edad<=10) {
-			texto = "niño";
+			texto = "niño o niña";
 		}
 		if(edad>=11&&edad<=40) {
 			texto = "adolescente";
 		}
 		if(edad>=41&&edad<=80) {
-			texto = "talludito";
+			texto = "talludito o talludita";
 		}
 		sc.close();
 		return texto;
