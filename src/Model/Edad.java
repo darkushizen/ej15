@@ -8,7 +8,7 @@ public class Edad {
 		System.out.println("Introduce un número");
 		int edad = sc.nextInt();
 		if(edad>=0&&edad<=4) {
-			texto = "pequeñín";
+			texto = "pequeñajo";
 		}
 		if(edad>=5&&edad<=10) {
 			texto = "niño";
